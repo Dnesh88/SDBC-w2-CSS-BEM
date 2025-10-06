@@ -38,6 +38,9 @@ nav {
 
 .nav-list-item {
   padding: 0px 15px 0px 15px;
+  /* border: 1px solid black;
+  margin-bottom: 10px; */
+  font-size: 18px;
 }
 
 a {
