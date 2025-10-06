@@ -1,0 +1,113 @@
+:root {
+  --body-textarea-background-color-lightGrey: rgb(247, 247, 247);
+  --body-textarea-background-color-darkGrey: rgb(211, 211, 211);
+  --body-button-color: yellow;
+  --body-button-background-color: black;
+  --body-background-color: rgb(255, 255, 0);
+  --body-textarea-bottom-border-color: 10px solid black;
+}
+
+body {
+  background-color: var(--body-background-color);
+  font-family: Courier;
+}
+
+.image-container {
+  padding: 0;
+}
+
+h1,
+p,
+label {
+  padding: 10px;
+}
+
+input[type="text"],
+textarea {
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.main-div-padding {
+  padding: 20px;
+}
+
+.main-button {
+  color: var(--body-button-color);
+  background-color: var(--body-button-background-color);
+  padding: 10px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.candidate-table-button {
+  color: var(--body-button-background-color);
+  background-color: var(--body-textarea-background-color-darkGrey);
+  padding: 5px;
+  display: block;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+h1 {
+  padding-top: 15px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+.main-div-right {
+  width: 60%;
+  margin-right: 10%;
+  margin-left: 20%;
+  border-bottom: var(--body-textarea-bottom-border-color);
+}
+
+.main-div-left {
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 10%;
+  border-bottom: var(--body-textarea-bottom-border-color);
+}
+
+.main-div-center {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid black;
+}
+
+.main-div-color-lightGrey {
+  background-color: var(--body-textarea-background-color-lightGrey);
+}
+
+.main-div-color-darkGrey {
+  background-color: var(--body-textarea-background-color-darkGrey);
+}
